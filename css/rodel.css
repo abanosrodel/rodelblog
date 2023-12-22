@@ -1,0 +1,68 @@
+
+img{
+    width: 350;
+    height: 300;
+    background-color: black;
+    margin: 30px 0;
+    border-radius: 100px;
+}
+.resume_wraper{
+    width: 100%;
+    padding: 50px 8%;
+}
+.title{
+    font-weight: bold;
+    text-decoration: none;
+    color:wheat;
+    font-weight: bold;
+    background-color: black;
+    margin: 30px 0;
+    border-radius: 5;
+    padding: 10px 18px;
+}
+.resume_l{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 70px;
+}
+.resume_namerole{
+    color: #020000;
+}
+.name{
+    color: teal;
+}
+.role{
+    color:teal;
+}
+.navbar {
+    font-size: 20px;
+    font-family:serif ;
+    font-weight: bold;
+  }
+
+.reactions {
+    display: flex;
+    gap: 10px;
+}
+.reaction-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 20px;
+    outline: none;
+}
+.heart {
+    color: red;
+}
+.sad {
+    color: blue;
+}
+.smile {
+    color: yellow;
+}
+.like{
+    color:blue;
+}
+.reaction-btn.active {
+    transform: scale(1.2);
+}

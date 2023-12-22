@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../image/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  font-size: 20px;
+  font-family:serif ;
+  font-weight: bold;
+}
+.content {
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+}
+.logo{
+  width: 50px;
+}
+.content h1{
+  font-size: 60;
+  font-weight: 700;
+  font-family: cursive;
+  color: rgb(77, 182, 252);
+  position:relative;
+}
+.content p{
+  font-size: 20;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  position:relative;
+}
+span{
+  color: rgb(18, 185, 144);
+  font-weight: 700;
+  font-size: 20;
+  font-family:Arial;
+}
+.row {
+  display: flex;
+  top: 50%;
+  position:absolute;
+  margin: auto 20%;
+  color: aliceblue;
+  text-align: center;
+}
+
+.column {
+  flex: 10%;
+  padding: 10px;
+}
+.reactions {
+  display: flex;
+  gap: 10px;
+}
+.reaction-btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+  outline: none;
+}
+.heart {
+  color: red;
+}
+.sad {
+  color: blue;
+}
+.smile {
+  color: yellow;
+}
+.like{
+  color:blue;
+}
